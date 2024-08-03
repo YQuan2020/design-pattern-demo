@@ -1,16 +1,16 @@
-package design
+package behavior
 
 import "testing"
 
-func TestDoMediator(t *testing.T) {
+func TestDoCommand(t *testing.T) {
 	tests := []struct {
 		name string
 	}{
-		{name: "test mediator"},
+		{name: "test command behavior pattern"},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			DoMediator()
+			DoCommand()
 		})
 	}
 }

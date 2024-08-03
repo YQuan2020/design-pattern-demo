@@ -1,16 +1,16 @@
-package design
+package behavior
 
 import "testing"
 
-func TestDoObserver(t *testing.T) {
+func TestDoStrategy(t *testing.T) {
 	tests := []struct {
 		name string
 	}{
-		{name: "test observer"},
+		{name: "test strategy"},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			DoObserver()
+			DoStrategy()
 		})
 	}
 }

@@ -1,16 +1,16 @@
-package design
+package behavior
 
 import "testing"
 
-func TestDoMemento(t *testing.T) {
+func TestDoIterator(t *testing.T) {
 	tests := []struct {
 		name string
 	}{
-		{name: "test memento"},
+		{name: "test iterator"},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			DoMemento()
+			DoIterator()
 		})
 	}
 }
