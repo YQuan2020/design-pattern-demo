@@ -97,6 +97,6 @@ func DoVisitor() {
 	fmt.Println()
 	middleCoordinates := &MiddleCoordinates{}
 	square.accept(middleCoordinates)
-	circle.accept(areaCalculator)
+	circle.accept(middleCoordinates)
 	rectangle.accept(middleCoordinates)
 }
