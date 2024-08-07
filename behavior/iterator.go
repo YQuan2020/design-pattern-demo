@@ -2,6 +2,8 @@ package behavior
 
 import "fmt"
 
+// a collection of item
+
 type Collection interface {
 	createIterator() Iterator
 }

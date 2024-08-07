@@ -2,6 +2,8 @@ package behavior
 
 import "fmt"
 
+// memento or history
+
 type Originator struct {
 	state string
 }
